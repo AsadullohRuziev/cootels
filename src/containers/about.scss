@@ -1,0 +1,49 @@
+.about {
+    height: 736px;
+    display: flex;
+    position: relative;
+    .img_about_us {
+        padding-top: 80px;
+        height: 576px;
+        width: 384px;
+    }
+    .About_us_main {
+        padding-top: 131px;
+        margin-left: 126px;
+        .about_us_main_text {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 150%;
+            width: 690px;
+            height: 108px;
+            
+            letter-spacing: -0.01em;
+        }
+        .about_us_text_inner {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            width: 584px;
+            height: 81px;
+            margin-top: -18px;
+        
+            color: #848FAC;
+        }
+        
+        .about_us_text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            width: 584px;
+            height: 54px;
+            margin-top: -2px;
+        
+        
+            color: #848FAC;
+        }
+    }
+}
