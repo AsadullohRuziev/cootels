@@ -10,7 +10,7 @@ const Room = () => {
     <div className="room">
     <div className="room_frame">
         <div className="room_left">
-            <p class="room_left_inner">Start your journey!</p>
+            <p className="room_left_inner">Start your journey!</p>
             <h2>How to Get My Room?</h2>
             <p>You can contact us by phone or email us. Easily tap the contact button below and it will take you to our contact point</p>
             <div className="room_left_a">

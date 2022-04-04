@@ -14,7 +14,7 @@ const Reservation = () => {
           There is a room for every needs. We have room for individuals until
           family size, we also have a cabin for more private experience
         </p>
-        <a href="#" className="btn_reservation_inner">
+        <a href="#" target="#" alt="true" className="btn_reservation_inner">
           Explore more
         </a>
       </div>
@@ -41,8 +41,8 @@ const Reservation = () => {
             Learn more <img src={line} alt="#" />
           </a>
         </div>
-        <div class="reservation_main_three">
-          <img src={room_three} alt="" className="room_three" />
+        <div className="reservation_main_three">
+          <img src={room_three} alt="true" className="room_three" />
           <h2>Cootage</h2>
           <p>
             Best for family or group. One cootage can fit up to 5 people. Made
