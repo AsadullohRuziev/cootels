@@ -1,0 +1,98 @@
+.reservation {
+  height: 1176px;
+  position: relative;
+  .reservation_inner {
+    padding-top: 80px;
+    .btn_reservation_inner {
+        position: relative;
+        width: 165px;
+        height: 51px;
+        text-decoration: none;
+        background-color: #0E1734;
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 68px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #0E1734;
+        transition: background .2s linear, color .2s linear;
+        &:hover {
+            color: #0E1734;
+            background-color: white;
+        }
+    }
+    .reservation_inner_text_top {
+      margin: 0;
+      text-align: center;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+
+      color: #192252;
+    }
+    .reservation_inner_text_main {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      width: 588px;
+      height: 54px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      padding-top: 24px;
+      margin-bottom: 0;
+
+      color: #848fac;
+    }
+  }
+  .reservation_main {
+    padding-top: 88px;
+    display: flex;
+    gap: 24px;
+    h3 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      margin: 0;
+      padding-top: 32px;
+      color: #000000;
+    }
+    p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      margin: 0;
+      padding-top: 16px;
+      margin-bottom: 32px;
+      color: #848fac;
+    }
+    a {
+      text-decoration: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      position: relative;
+
+      color: #424f7b;
+      img {
+        margin-left: 11px;
+      }
+    }
+  }
+}
