@@ -9,6 +9,7 @@ const About = () => {
       <img src={about} alt="" className="img_about_us" />
       <div className="About_us_main">
         <h3 className="about_us_main_text">
+          
           Cozy and Down to Earth Cootage Hotel in Norway.
         </h3>
         <p className="about_us_text_inner">
